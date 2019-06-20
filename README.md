@@ -9,7 +9,7 @@ So, to run the application:
 ```
 git clone https://github.com/daniel-chiuratto-seabra/waes.git
 ``` 
-* Once cloned, access the project root folder and execute to execute the application you can choose two approaches: using the package goal from Maven to run the tests, pack it as a JAR and run it through the Java command or using the Spring Boot plugin which executes the application directly without executing the tests:
+* Once cloned, access the project root folder and to execute the application you can choose two approaches: using the package goal from Maven to run the tests, pack it as a JAR and run it through the Java command or using the Spring Boot plugin which executes the application directly without executing the tests:
 
 Without tests:
 ```
