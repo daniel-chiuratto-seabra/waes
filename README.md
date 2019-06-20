@@ -63,7 +63,7 @@ The Exception Handler class is where all exceptions thrown during the applicatio
 You can run the integration tests on the Spring Boot Test JUnit test through the **AssessmentApplicationTests** class.
 
 ## Unit Tests
-You are going to see that the application is not 100% covered by JUnit tests, but this is because I avoided to do dummy tests in classes that does not have enough logic to be testes such DTO classes and Builders.
+You are going to see that the application is not 100% covered by JUnit tests, but this is because I avoided to do dummy tests in classes that does not have enough logic to be tested such DTO classes and Builders.
 
 ## Improvements
 ### Caching
