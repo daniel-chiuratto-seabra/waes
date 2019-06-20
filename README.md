@@ -59,6 +59,12 @@ The Utility class (JsonUtil) is focused in giving support for certain functional
 
 The Exception Handler class is where all exceptions thrown during the application goes if they happen, because they are handled to have a more standarized way to be returned to requestor with a friendly message.
 
+## Integration Tests
+You can run the integration tests on the Spring Boot Test JUnit test through the **AssessmentApplicationTests** class.
+
+## Unit Tests
+You are going to see that the application is not 100% covered by JUnit tests, but this is because I avoided to do dummy tests in classes that does not have enough logic to be testes such DTO classes and Builders.
+
 ## Improvements
 ### Caching
 It was implemented a **Map** which caches the result of the process (when we do a **GET**) in a manner that when we repeat such call without setting anything to the same id (doing a **POST** to the same id with some value), instead of the application re-run all the processes, it gets the result that was cached on a prior execution. This approach optimizes the performance.
