@@ -4,6 +4,10 @@ Candidate: Daniel Chiuratto Seabra
 ## Running the Application
 The application is implemented using the Java 8, but it works for more recent versions of Java without any issues, and also you are going to need to have Maven installed as well, since that the project has been built as a Maven project to manage the dependencies and help with the building process.
 
+Maven Download Link: https://maven.apache.org/download.cgi
+
+Java Download Link: https://www.oracle.com/technetwork/pt/java/javase/downloads/index.html
+
 So, to run the application:
 * Clone the application using git clone with the address:
 ```
@@ -57,6 +61,6 @@ The Exception Handler class is where all exceptions thrown during the applicatio
 
 ## Improvements
 ### Caching
-It was implemented a **Map** which caches the result of the process (when we do a **GET**) in a manner that when we repeat such call without setting anything to the same id, instead of the application re-run all the processes, it gets the result that was cached on a prior execution. This approach optimizes the performance.
+It was implemented a **Map** which caches the result of the process (when we do a **GET**) in a manner that when we repeat such call without setting anything to the same id (doing a **POST** to the same id with some value), instead of the application re-run all the processes, it gets the result that was cached on a prior execution. This approach optimizes the performance.
 ### Diff Result
 To attend the scenario of having two payloads with the same id, having the same size but different values, it was implemented an utilitary class (JsonUtil) which finds the difference between the two payloads returning with a certain amount of detail what fields and their values to allow the requestor to know exactly what is the difference between them, despite their equality in size.
