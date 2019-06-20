@@ -2,7 +2,7 @@
 Candidate: Daniel Chiuratto Seabra
 
 ## Running the Application
-The application is implemented using the Java 8, but it works for more recent versions of Java without issues.
+The application is implemented using the Java 8, but it works for more recent versions of Java without any issues, and also you are going to need to have Maven installed as well, since that the project has been built as a Maven project to manage the dependencies and help with the building process.
 
 So, to run the application:
 * Clone the application using git clone with the address:
